@@ -3,6 +3,13 @@
 
 password = {
     'gmail' : 'trabajarengoogle',
-    'platzi' : 'Halo8675'
+    'platzi' : 'Halo8675',
     'amazon' : 'jeffbezos'
 }
+
+import sys
+if len(sys.argv < 2):
+    print('Usage: python pass_locker.py [account] - copy account password')
+    sys.exit()
+
+account = sys.argv[1]
