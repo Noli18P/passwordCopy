@@ -9,7 +9,7 @@ password = {
 
 import sys, pyperclip
 
-if len(sys.argv < 2):
+if len(sys.argv) < 2:
     print('Usage: python pass_locker.py [account] - copy account password')
     sys.exit()
 
